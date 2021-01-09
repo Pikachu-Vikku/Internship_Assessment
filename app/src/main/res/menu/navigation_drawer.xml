@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<group android:checkableBehavior="single"
+    android:id="@+id/orders">
+    <item
+        android:title="Admin Details" />
+</group>
+    <group android:checkableBehavior="single"
+        android:id="@+id/payment">
+        <item
+            android:title="Business Details" />
+    </group>
+    <group android:checkableBehavior="single"
+        android:id="@+id/insights">
+        <item
+            android:title="Log Out" />
+    </group>
+    <group android:checkableBehavior="single"
+        android:id="@+id/profile">
+        <item
+            android:title="Need Help ?" />
+    </group>
+
+</menu>
